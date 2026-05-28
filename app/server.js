@@ -1036,7 +1036,7 @@ function createServer({ port = 3000, logger, metrics } = {}) {
 						<link rel="stylesheet" href="/styles.css" />
 					</head>
 					<body class="retro-shell">
-						<h1 class="retro-title">Tic Tac Toe v1.2 - 28 May 2026 16:12</h1>
+						<h1 class="retro-title">Tic Tac Toe v1.3 - 28 May 2026 16:15</h1>
 						<div class="layout">
 							<div class="game-column">
 								<section class="panel">
