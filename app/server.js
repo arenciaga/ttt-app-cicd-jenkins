@@ -1032,17 +1032,17 @@ function createServer({ port = 3000, logger, metrics } = {}) {
 						<meta charset="UTF-8" />
 						<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 						<meta name="use-marker-images" content="${mode.markerImageToggleEnabled ? 'true' : 'false'}" />
-						<title>Sparta App</title>
+						<title>Sparta App - CI/CD Demo #1 - 28 May 2026</title>
 						<link rel="stylesheet" href="/styles.css" />
 					</head>
 					<body class="retro-shell">
-						<h1 class="retro-title">Tic Tac Toe - 1st change - 28 May 2026 15:53</h1>
+						<h1 class="retro-title">Tic Tac Toe</h1>
 						<div class="layout">
 							<div class="game-column">
 								<section class="panel">
 									<div class="status-row">
 										<div class="status-stack">
-											<p id="status-text" class="stat-line">Loading game state...</p>
+											<p id="status-text" class="stat-line">Loading game state... [demo #1]</p>
 											<form id="initials-form" hidden>
 												<input id="initials-input" maxlength="3" placeholder="ABC" required />
 												<button type="submit">Submit Score</button>
