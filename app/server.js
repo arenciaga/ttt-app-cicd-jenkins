@@ -1032,11 +1032,11 @@ function createServer({ port = 3000, logger, metrics } = {}) {
 						<meta charset="UTF-8" />
 						<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 						<meta name="use-marker-images" content="${mode.markerImageToggleEnabled ? 'true' : 'false'}" />
-						<title>Sparta App - CI/CD Demo #1 - 28 May 2026</title>
+						<title>Sparta App - CI/CD v1.2 - 28 May 2026 16:12</title>
 						<link rel="stylesheet" href="/styles.css" />
 					</head>
 					<body class="retro-shell">
-						<h1 class="retro-title">Tic Tac Toe</h1>
+						<h1 class="retro-title">Tic Tac Toe v1.2 - 28 May 2026 16:12</h1>
 						<div class="layout">
 							<div class="game-column">
 								<section class="panel">
@@ -1045,12 +1045,12 @@ function createServer({ port = 3000, logger, metrics } = {}) {
 											<p id="status-text" class="stat-line">Loading game state... [demo #1]</p>
 											<form id="initials-form" hidden>
 												<input id="initials-input" maxlength="3" placeholder="ABC" required />
-												<button type="submit">Submit Score</button>
+												<button type="submit">Submit Score (Demo #2)</button>
 											</form>
 										</div>
 										<div id="win-actions" hidden>
-											<button id="play-again-btn" type="button">Continue?</button>
-											<button id="quit-btn" type="button">Quit?</button>
+											<button id="play-again-btn" type="button">Continue? (Demo #2)</button>
+											<button id="quit-btn" type="button">Quit? (Demo #2)</button>
 										</div>
 									</div>
 									<div id="game-board">
