@@ -8,9 +8,10 @@ async function requestJson(url, options) {
 }
 
 function getFooterVersionStamp() {
-  const configuredTimestamp = String(process.env.APP_FOOTER_TIMESTAMP || '21/05/2026 12:06').trim();
+  const configuredTimestamp = String(process.env.APP_FOOTER_TIMESTAMP || '22/05/26 16:30').trim();
   return `1.2 ${configuredTimestamp}`;
 }
+
 
 function defaultGameState() {
 	return {
