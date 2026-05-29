@@ -2475,7 +2475,7 @@ test('GET / places game title above both panels at top of page', async () => {
 		const body = await response.text();
 
 		assert.equal(response.status, 200);
-		assert.match(body, /<body class="retro-shell">\s*<h1 class="retro-title">Tic Tac Toe.*?<\/h1>\s*<div class="layout">/);
+		assert.match(body, /<body class="retro-shell">\s*<h1 class="retro-title">Tic Tac Toe<\/h1>\s*<div class="layout">/);
 		assert.equal(body.includes('<h2>Tic Tac Toe</h2>'), false);
 	} finally {
 		await new Promise((resolve) => server.close(resolve));
@@ -2509,7 +2509,7 @@ test('GET / renders copyright footer at very bottom outside panels', async () =>
 		assert.equal(response.status, 200);
 		assert.match(
 			body,
-			/<\/div>\s*<p class="page-footer">Copyright © 2026 Sparta Global<\/p>\s*<p class="mode-pill">Mode:\s*(Client-local stateful|Server-side stateful|Persistent with Mongo DB)<\/p>[\s\S]*?<script src="\/app\.js"><\/script>/
+			/<\/div>\s*<p class="page-footer">Copyright © 2026 Sparta Global<\/p>\s*<p class="mode-pill">Mode:\s*(Client-local stateful|Server-side stateful|Persistent with Mongo DB)<\/p>\s*<script src="\/app\.js"><\/script>/
 		);
 		assert.equal(/<section class="panel">\s*<p class="page-footer">/.test(body), false);
 	} finally {
