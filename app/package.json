@@ -1,6 +1,6 @@
 {
   "name": "sparta-app-v2",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Blank Node.js app scaffold",
   "main": "index.js",
   "scripts": {
